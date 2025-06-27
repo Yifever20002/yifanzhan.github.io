@@ -79,6 +79,14 @@ td,
 th,
 tr,
 p,
+body {
+  background-image: url('images/tomie_figure.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #fdfdfd;
+}
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
