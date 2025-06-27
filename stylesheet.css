@@ -79,24 +79,6 @@ td,
 th,
 tr,
 p,
-body {
-  position: relative;
-  background-color: #fdfdfd;
-  margin: 0;
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background-image: url('images/tomie_figure.png'), url('images/tomie_figure.png');
-  background-repeat: no-repeat, no-repeat;
-  background-position: left center, right center;
-  background-size: 300px auto, 300px auto;
-  opacity: 0.5; /* 透明度，0.0 ~ 1.0，数值越小越透明 */
-  pointer-events: none; /* 避免遮挡鼠标事件 */
-  z-index: -1;
-}
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
